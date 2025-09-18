@@ -8,7 +8,8 @@ It enables business users to track performance across multiple dimensions and ma
 ---
 
 ## 📸 Dashboard Preview  
-![Blinkit Dashboard](Screenshot%202025-09-18%20210133.png)  
+ <img width="1792" height="823" alt="Screenshot 2025-09-18 210133" src="https://github.com/user-attachments/assets/16eebbef-4124-4341-80b1-c2bd38535a26" />
+
 
 ---
 
