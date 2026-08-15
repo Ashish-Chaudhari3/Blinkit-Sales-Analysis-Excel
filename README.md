@@ -1,63 +1,98 @@
-# Blinkit-Sales-Analysis-Excel
+# BlinkIT Grocery Sales Dashboard
 
-## 📊 Project Overview  
-This project presents an **interactive sales analysis dashboard for Blinkit**, developed entirely in **Microsoft Excel**.  
-The dashboard provides insights into **total sales, average sales, number of items, outlet performance, item categories, outlet types, and customer preferences**.  
-It enables business users to track performance across multiple dimensions and make informed, data-driven decisions.  
+An Excel-based sales analysis and interactive dashboard built using the BlinkIT Grocery dataset. The project analyzes product performance, outlet characteristics, sales trends, and customer ratings to generate actionable business insights.
 
----
+## Project Overview
 
-## 📸 Dashboard Preview  
- <img width="1792" height="823" alt="Screenshot 2025-09-18 210133" src="https://github.com/user-attachments/assets/16eebbef-4124-4341-80b1-c2bd38535a26" />
+| Metric             |   Value |
+| ------------------ | ------: |
+| Total Sales        |  $1.20M |
+| Average Sales      | $140.99 |
+| Total Items        |   8,523 |
+| Average Rating     |    3.97 |
+| Product Categories |      16 |
+| Outlet Types       |       4 |
+| Location Tiers     |       3 |
 
+## Objectives
 
----
+* Evaluate overall sales and product performance.
+* Identify top-performing product categories.
+* Compare sales across outlet types, sizes, and location tiers.
+* Analyze sales trends based on outlet establishment year.
+* Compare Low Fat and Regular product sales.
+* Understand customer rating patterns.
+* Present key business metrics through an interactive Excel dashboard.
 
-## 🔑 Key Insights from the Dashboard  
-- **Total Sales:** $1.2M  
-- **Average Sales:** $141  
-- **Number of Items:** 8,523  
-- **Average Rating:** 4.0  
+## Dashboard Analysis
 
-### 📂 Item Type Contribution  
-- Fruits & Vegetables: **$178.1K**  
-- Snack Foods: **$175.4K**  
-- Household: **$136.0K**  
-- Frozen Foods: **$118.6K**  
-- Dairy: **$101.3K**  
-- Canned: **$90.7K**  
-- Others: Meat, Bakery, Soft Drinks, Seafood, etc.  
+The dashboard includes:
 
-### 🏬 Outlet Performance  
-- **Supermarket Type1**: $787.5K in sales with 5,577 items sold  
-- **Supermarket Type2**: $131.5K in sales  
-- **Supermarket Type3**: $130.7K in sales  
-- **Grocery Store**: $151.9K in sales  
+* KPI cards for Total Sales, Average Sales, Item Count, and Average Rating.
+* Sales by fat content and location tier.
+* Sales by product category.
+* Sales trends by outlet establishment year.
+* Sales distribution by outlet size.
+* Sales by outlet location type.
+* Sales and transaction count by outlet type.
+* Interactive Excel visualizations for business-level analysis.
 
-### 🍽 Fat Content Analysis  
-- Regular: **$776.3K (65%)**  
-- Low Fat: **$425.4K (35%)**  
+## Key Insights
 
-### 📍 Outlet Size & Location  
-- **Small outlets** lead with $507.9K (42%) sales  
-- **Medium outlets** generate $444.8K (37%) sales  
-- **Tier 3 locations** contribute the highest sales: $472.1K  
+| Area               | Key Finding                                                                        |
+| ------------------ | ---------------------------------------------------------------------------------- |
+| Product Category   | Fruits and Vegetables generated the highest sales, followed closely by Snack Foods |
+| Fat Content        | Low Fat products contributed the majority of sales                                 |
+| Outlet Type        | Supermarket Type1 generated the highest sales                                      |
+| Location           | Tier 3 outlets recorded the highest total sales                                    |
+| Outlet Size        | Medium outlets generated the highest total sales                                   |
+| Establishment Year | Outlets established in 2018 generated the highest sales                            |
+| Customer Rating    | Average rating was approximately 3.97                                              |
 
----
+## Tools & Techniques
 
-## 🛠 Tools & Techniques Used  
-- **Microsoft Excel**  
-  - Pivot Tables  
-  - Pivot Charts  
-  - Slicers for interactive filtering  
-  - Donut & Bar Charts  
-  - Conditional Formatting  
+| Category         | Tools / Techniques                       |
+| ---------------- | ---------------------------------------- |
+| Spreadsheet      | Microsoft Excel                          |
+| Data Analysis    | Pivot Tables, Aggregation, Filtering     |
+| Data Preparation | Data Cleaning, Categorization            |
+| Visualization    | Bar Charts, Area Charts, Doughnut Charts |
+| Dashboard        | Interactive Excel Dashboard              |
+| Metrics          | Sales, Average Sales, Item Count, Rating |
 
----
+## Dataset
 
-## 🚀 How to Use the Dashboard  
-1. Download the Excel file from this repository.  
-2. Open it in **Microsoft Excel (2016 or later recommended)**.  
-3. Use the **filter panel (Outlet Size, Outlet Location, Item Type)** to dynamically explore insights.  
+The dataset contains 8,523 grocery product transactions with information about:
 
----
+* Product and item type
+* Fat content
+* Sales
+* Item visibility and weight
+* Outlet type, size, and location
+* Outlet establishment year
+* Customer rating
+
+## Repository Structure
+
+```text
+BlinkIT-Grocery-Sales-Analysis/
+├── BlinkIT Grocery Dataset.xlsx
+├── BlinkIT Grocery DashBoard.xlsx
+└── README.md
+```
+
+## How to Use
+
+1. Open `BlinkIT Grocery DashBoard.xlsx`.
+2. Review the KPI section for overall performance.
+3. Use the dashboard visualizations to analyze product and outlet performance.
+4. Refer to the `Analyze` sheet for the underlying calculations and PivotTable analysis.
+5. Use `BlinkIT Grocery Dataset.xlsx` as the source dataset.
+
+## Skills Demonstrated
+
+**Excel | Data Cleaning | Pivot Tables | Data Analysis | Data Visualization | Dashboard Development | KPI Analysis | Business Intelligence**
+
+## Project Outcome
+
+The project converts raw grocery sales data into an interactive Excel dashboard that provides a concise view of sales performance, product trends, outlet characteristics, and customer ratings for business decision-making.
